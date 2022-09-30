@@ -1,0 +1,1 @@
+print(object.__subclasses__()[2].__subclasses__()[0](' ').__lshift__(6).__add__(object.__subclasses__()[2].__subclasses__()[0](' ').__lshift__(2).__add__(object.__subclasses__()[2].__subclasses__()[0](' '))))
