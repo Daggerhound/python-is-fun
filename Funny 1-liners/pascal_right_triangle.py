@@ -1,0 +1,2 @@
+# add more () at the end for more lines of the triangle printed or less for less
+type("bruh", (), {"x": [1], "__call__": lambda self: [print(*self.x), setattr(self, "x", list(map(sum, zip([0] + self.x, self.x + [0])))), self][-1]})()()()()()()()()()()()()()()()()
