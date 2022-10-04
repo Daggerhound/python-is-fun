@@ -41,7 +41,7 @@
 @lambda _: [_[0], int(input("Which cell ? (1-9): ")), _[-1]]
 # Turn 1
 @lambda _: [_[0], print(_[0]), _[-1]] 
-@lambda _: [_[0], print(" %s | %s | %s\n───+───+──\n %s | %s | %s\n───+───+──\n %s | %s | %s" % (*_[0],)) , _[-1]]
+@lambda _: [_[0], print(" %s | %s | %s\n───+───+──\n %s | %s | %s\n───+───+──\n %s | %s | %s" % (*_[0],)), _[-1]]
 @lambda _: [_[0][:_[1]-1] + "xo"[_[-1]] + _[0][_[1]:], (_[-1] + 1) % 2]
 @lambda _: ["         ", int(input("Which cell ? (1-9): ")), 0]
 def tic_tac_toe():
